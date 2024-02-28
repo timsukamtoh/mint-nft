@@ -104,6 +104,7 @@ const Page: React.FC = () => {
                 <TabsTrigger value="nfts">NFTs</TabsTrigger>
                 <TabsTrigger value="projects">Projects</TabsTrigger>
                 <TabsTrigger value="send">Donate</TabsTrigger>
+                <TabsTrigger value="contact-nft">Mint NFT</TabsTrigger>
               </TabsList>
               <TabsContent
                 value="links"
@@ -153,6 +154,10 @@ const Page: React.FC = () => {
               </TabsContent>
               <TabsContent value="send">
                 <SendTransaction />
+              </TabsContent>
+              <TabsContent value="contact-nft">
+                MINT NFT HERE
+
               </TabsContent>
             </Tabs>
           </div>
